@@ -134,6 +134,26 @@ public class Quiz {
         questoes[11].opcaoE = "E) Imperio";
         questoes[11].correta = "A";
 
+        // Questão 13
+        questoes[12] = new Questao();
+        questoes[12].pergunta = "Qual é o nome do feitiço que conjura um patrono?";
+        questoes[12].opcaoA = "A) Expecto Patronum";
+        questoes[12].opcaoB = "B) Lumos";
+        questoes[12].opcaoC = "C) Wingardium Leviosa";
+        questoes[12].opcaoD = "D) Accio";
+        questoes[12].opcaoE = "E) Alohomora";
+        questoes[12].correta = "A";
+
+        // Questão 14
+        questoes[13] = new Questao();
+        questoes[13].pergunta = "Qual é o nome do feitiço que abre portas trancadas?";
+        questoes[13].opcaoA = "A) Alohomora";
+        questoes[13].opcaoB = "B) Lumos";
+        questoes[13].opcaoC = "C) Wingardium Leviosa";
+        questoes[13].opcaoD = "D) Accio";
+        questoes[13].opcaoE = "E) Expecto Patronum";
+        questoes[13].correta = "A";
+
 
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
