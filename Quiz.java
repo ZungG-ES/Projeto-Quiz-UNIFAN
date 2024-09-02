@@ -124,6 +124,17 @@ public class Quiz {
         questoes[10].opcaoE = "E) O Jornal Bruxo";
         questoes[10].correta = "A";
 
+        // Questão 12
+        questoes[11] = new Questao();
+        questoes[11].pergunta = "Qual é o nome do feitiço para desarmar o oponente?";
+        questoes[11].opcaoA = "A) Expelliarmus";
+        questoes[11].opcaoB = "B) Stupefy";
+        questoes[11].opcaoC = "C) Avada Kedavra";
+        questoes[11].opcaoD = "D) Crucio";
+        questoes[11].opcaoE = "E) Imperio";
+        questoes[11].correta = "A";
+
+
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
             questoes[i].escrevaQuestao();
