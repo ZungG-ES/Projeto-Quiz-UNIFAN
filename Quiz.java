@@ -154,6 +154,15 @@ public class Quiz {
         questoes[13].opcaoE = "E) Expecto Patronum";
         questoes[13].correta = "A";
 
+        // Questão 15
+        questoes[14] = new Questao();
+        questoes[14].pergunta = "Qual é o nome do feitiço que ilumina a ponta da varinha?";
+        questoes[14].opcaoA = "A) Lumos";
+        questoes[14].opcaoB = "B) Nox";
+        questoes[14].opcaoC = "C) Wingardium Leviosa";
+        questoes[14].opcaoD = "D) Accio";
+        questoes[14].opcaoE = "E) Expecto Patronum";
+        questoes[14].correta = "A";
 
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
