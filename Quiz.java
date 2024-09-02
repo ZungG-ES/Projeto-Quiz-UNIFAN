@@ -7,7 +7,9 @@ public class Quiz {
         // Cabeçalho
         System.out.println("Faculdade: Centro Universitário Alfredo Nasser");
         System.out.println("Aluno: Adrian Rezende");
-
+        System.out.println("Professor: Brenno Pimenta");
+        System.out.println("\nBem-vindo ao quiz sobre o Mundo Mágico de Hogwarts!");
+        System.out.println("Você responderá 15 perguntas de múltipla escolha.\n");
 
         // Criando as questões
         Questao[] questoes = new Questao[totalQuestoes];
