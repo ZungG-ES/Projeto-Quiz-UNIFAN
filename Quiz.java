@@ -104,6 +104,16 @@ public class Quiz {
         questoes[8].opcaoE = "E) Banco de Beauxbatons";
         questoes[8].correta = "A";
 
+        // Questão 10
+        questoes[9] = new Questao();
+        questoes[9].pergunta = "Qual é o nome do hipogrifo de Hagrid?";
+        questoes[9].opcaoA = "A) Bicuço";
+        questoes[9].opcaoB = "B) Norberto";
+        questoes[9].opcaoC = "C) Aragog";
+        questoes[9].opcaoD = "D) Fang";
+        questoes[9].opcaoE = "E) Fluffy";
+        questoes[9].correta = "A";
+
 
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
