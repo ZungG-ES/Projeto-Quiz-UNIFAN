@@ -74,6 +74,36 @@ public class Quiz {
         questoes[5].opcaoE = "E) Arthur Weasley";
         questoes[5].correta = "A";
 
+        // Questão 7
+        questoes[6] = new Questao();
+        questoes[6].pergunta = "Qual é o nome do professor de Poções no primeiro ano de Harry?";
+        questoes[6].opcaoA = "A) Minerva McGonagall";
+        questoes[6].opcaoB = "B) Filius Flitwick";
+        questoes[6].opcaoC = "C) Severus Snape";
+        questoes[6].opcaoD = "D) Pomona Sprout";
+        questoes[6].opcaoE = "E) Gilderoy Lockhart";
+        questoes[6].correta = "C";
+
+        // Questão 8
+        questoes[7] = new Questao();
+        questoes[7].pergunta = "Qual é o nome do mapa que mostra todos os segredos de Hogwarts?";
+        questoes[7].opcaoA = "A) Mapa do Maroto";
+        questoes[7].opcaoB = "B) Mapa do Peregrino";
+        questoes[7].opcaoC = "C) Mapa do Explorador";
+        questoes[7].opcaoD = "D) Mapa do Viajante";
+        questoes[7].opcaoE = "E) Mapa do Aventureiro";
+        questoes[7].correta = "A";
+
+        // Questão 9
+        questoes[8] = new Questao();
+        questoes[8].pergunta = "Qual é o nome do banco dos bruxos?";
+        questoes[8].opcaoA = "A) Gringotes";
+        questoes[8].opcaoB = "B) Banco de Hogwarts";
+        questoes[8].opcaoC = "C) Banco de Hogsmeade";
+        questoes[8].opcaoD = "D) Banco de Diagon Alley";
+        questoes[8].opcaoE = "E) Banco de Beauxbatons";
+        questoes[8].correta = "A";
+
 
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
