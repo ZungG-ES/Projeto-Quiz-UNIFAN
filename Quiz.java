@@ -54,6 +54,26 @@ public class Quiz {
         questoes[3].opcaoE = "E) Fênix";
         questoes[3].correta = "A";
 
+        // Questão 5
+        questoes[4] = new Questao();
+        questoes[4].pergunta = "Qual é a posição de Harry Potter no time de Quadribol?";
+        questoes[4].opcaoA = "A) Batedor";
+        questoes[4].opcaoB = "B) Apanhador";
+        questoes[4].opcaoC = "C) Artilheiro";
+        questoes[4].opcaoD = "D) Goleiro";
+        questoes[4].opcaoE = "E) Nenhuma das opções";
+        questoes[4].correta = "B";
+
+        // Questão 6
+        questoes[5] = new Questao();
+        questoes[5].pergunta = "Qual é o nome do pai de Draco Malfoy?";
+        questoes[5].opcaoA = "A) Lucius Malfoy";
+        questoes[5].opcaoB = "B) Severus Snape";
+        questoes[5].opcaoC = "C) Sirius Black";
+        questoes[5].opcaoD = "D) Remus Lupin";
+        questoes[5].opcaoE = "E) Arthur Weasley";
+        questoes[5].correta = "A";
+
 
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
