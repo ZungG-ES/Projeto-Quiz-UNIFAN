@@ -44,6 +44,17 @@ public class Quiz {
         questoes[2].opcaoE = "E) None of the above";
         questoes[2].correta = "A";
 
+        // Questão 4
+        questoes[3] = new Questao();
+        questoes[3].pergunta = "Qual é o patrono de Hermione Granger?";
+        questoes[3].opcaoA = "A) Lontra";
+        questoes[3].opcaoB = "B) Cervo";
+        questoes[3].opcaoC = "C) Lebre";
+        questoes[3].opcaoD = "D) Gato";
+        questoes[3].opcaoE = "E) Fênix";
+        questoes[3].correta = "A";
+
+
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
             questoes[i].escrevaQuestao();
