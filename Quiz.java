@@ -114,6 +114,15 @@ public class Quiz {
         questoes[9].opcaoE = "E) Fluffy";
         questoes[9].correta = "A";
 
+        // Questão 11
+        questoes[10] = new Questao();
+        questoes[10].pergunta = "Qual é o nome do jornal dos bruxos?";
+        questoes[10].opcaoA = "A) O Profeta Diário";
+        questoes[10].opcaoB = "B) O Correio Coruja";
+        questoes[10].opcaoC = "C) O Diário de Hogwarts";
+        questoes[10].opcaoD = "D) O Jornal de Hogsmeade";
+        questoes[10].opcaoE = "E) O Jornal Bruxo";
+        questoes[10].correta = "A";
 
         // Lógica para responder às questões
         for (int i = 0; i < totalQuestoes; i++) {
